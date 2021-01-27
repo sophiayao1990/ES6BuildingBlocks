@@ -71,3 +71,12 @@ The application should let the user enter a string and should display the number
 enter a string >I am just a poor boy from a poor family. Spare me my life for this one atrocity.
 the string contains 18 words
 ```
+
+11. Pig Latin
+
+Write a program that accepts a sentence as input and converts each word to “Pig Latin.” In one version, to convert a word to Pig Latin you remove the letters up to the first vowel and place that letter at the end of the word. Then you append the string “ay” to the word. 
+Here is an example:
+
+English: I SLEPT MOST OF THE NIGHT
+
+Pig Latin: IAY EPTSLAY OSTMAY OFAY ETHAY IGHTNAY
