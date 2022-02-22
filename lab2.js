@@ -10,3 +10,12 @@
 #
 ```
 */
+
+import readlineSync from 'readline-sync';
+
+let nRows = readlineSync.question("How many rows?");
+
+for (let n = nRows; n>0; n=n-1)
+{
+    console.log("#".repeat(n));
+}
